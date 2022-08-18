@@ -1,0 +1,23 @@
+body, html {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#no {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+}
+button{
+  padding: 5px 10px;
+  color: white;
+  background-color: green;
+  border: 0;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
